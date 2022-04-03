@@ -1,0 +1,23 @@
+{
+  "name": "asso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matosjoaops/MIEIC_ASSO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matosjoaops/MIEIC_ASSO/issues"
+  },
+  "homepage": "https://github.com/matosjoaops/MIEIC_ASSO#readme",
+  "dependencies": {
+    "puppeteer": "^13.5.2"
+  }
+}
