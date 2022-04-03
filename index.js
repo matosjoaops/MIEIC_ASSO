@@ -1,6 +1,51 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
+function parseAssociationBody(association) {
+  const parsedAssociation = { name: association.name };
+
+  const lines = association.body.split("\n");
+  let body = {};
+
+  for (let line of lines) {
+    if (line === "") continue;
+
+    line = line.replaceAll(/(<([^>]+)>)|(\s)|(&[a-z]+;)/gi, "");
+
+    const colonIndex = line.indexOf(":");
+
+    let datapointName = line.substring(0, colonIndex),
+      datapointValue = line.substring(colonIndex + 1, line.length);
+
+    switch (datapointName) {
+      case "Horário":
+        datapointName = "timetable";
+        break;
+      case "Telefone":
+        datapointName = "phone";
+        break;
+      case "Email":
+        datapointName = "email";
+        break;
+      case "Site":
+        datapointName = "website";
+        break;
+      case "Facebook":
+        datapointName = "facebook";
+        break;
+      case "Instagram":
+        datapointName = "instagram";
+        break;
+    }
+
+    body = Object.assign(body, { [datapointName]: datapointValue });
+  }
+
+  parsedAssociation.information = body;
+
+  return parsedAssociation;
+}
+
 async function scrap() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
@@ -33,7 +78,11 @@ async function scrap() {
 
   const associations = associations1.concat(associations2);
 
-  fs.writeFileSync("data.json", JSON.stringify(associations), { flag: "a" });
+  const parsedAssociations = associations.map(parseAssociationBody);
+
+  fs.writeFileSync("data.json", JSON.stringify(parsedAssociations), {
+    flag: "a",
+  });
 
   await browser.close();
 }

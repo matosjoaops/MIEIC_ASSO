@@ -1,126 +1,191 @@
 [
   {
     "name": "AEFEUP - Associação de Estudantes da FEUP ",
-    "body": "<strong>Horário: </strong>09h30 – 12h00/ 14h00 – 17h30<p></p>\n<p><strong>Telefone: </strong>+351 225 081 557</p>\n<p><strong>Email: </strong><a href=\"mailto:%20geral@aefeup.pt\">geral@aefeup.pt </a></p>\n<p><strong>Site:</strong> http://www.aefeup.pt/</p>"
+    "information": {
+      "timetable": "09h30–12h00/14h00–17h30",
+      "phone": "+351225081557",
+      "email": "geral@aefeup.pt",
+      "website": "http://www.aefeup.pt/"
+    }
   },
   {
     "name": "AGE-i-FEUP - Associação dos Alunos de Gestão e Engenharia Industrial da FEUP ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20ageifeup@fe.up.pt\">ageifeup@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> https://www.facebook.com/ageifeuporto</p>"
+    "information": {
+      "email": "ageifeup@fe.up.pt",
+      "website": "https://www.facebook.com/ageifeuporto"
+    }
   },
   {
     "name": "AEC- FEUP- Associação dos Antigos Alunos de Engenharia Civil da Faculdade de Engenharia da Universidade do Porto",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20gcastro@fe.up.pt\">gcastro@fe.up.pt</a><p></p>\n<p><strong>Site:</strong> https://paginas.fe.up.pt/~aec/</p>"
+    "information": {
+      "email": "gcastro@fe.up.pt",
+      "website": "https://paginas.fe.up.pt/~aec/"
+    }
   },
   {
     "name": "ADEMEC - Associação de Antigos Alunos de Mecânica",
-    "body": "<strong>Email: </strong><a href=\"mailto:rui.sa@inegi.up.pt\">rui.sa@inegi.up.pt</a>"
+    "information": { "email": "rui.sa@inegi.up.pt" }
   },
   {
     "name": "ADEMM - Associação de Antigos Alunos de Metalurgia e de Materiais ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20ademm@fe.up.pt\">ademm@fe.up.pt </a>"
+    "information": { "email": "ademm@fe.up.pt" }
   },
   {
     "name": "AlumniEI - Associação dos Licenciados e Finalistas da Licenciatura em Engenharia Informática e Computação da FEUP ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20alumniei@fe.up.pt\">alumniei@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> http://alumniei.fe.up.pt/</p>"
+    "information": {
+      "email": "alumniei@fe.up.pt",
+      "website": "http://alumniei.fe.up.pt/"
+    }
   },
   {
     "name": "BEST - Board of European Students of Technology - Universidade do Porto ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20orgporto@BEST.eu.org\">orgporto@BEST.eu.org </a><p></p>\n<p><strong>Site:</strong> http://bestporto.org/website/pt/</p>"
+    "information": {
+      "email": "orgporto@BEST.eu.org",
+      "website": "http://bestporto.org/website/pt/"
+    }
   },
-  {
-    "name": "Biostar ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20%20%20%20%20biostar@fe.up.pt\">biostar@fe.up.pt </a>"
-  },
+  { "name": "Biostar ", "information": { "email": "biostar@fe.up.pt" } },
   {
     "name": "Engenharia Rádio ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20geral@engenhariaradio.pt\">geral@engenhariaradio.pt</a><p></p>\n<p><strong>Site:</strong> http://www.engenhariaradio.pt/</p>"
+    "information": {
+      "email": "geral@engenhariaradio.pt",
+      "website": "http://www.engenhariaradio.pt/"
+    }
   },
   {
     "name": "ESTIEM - European Students of Industrial Engineering and Management ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20lgporto@ageifeup.com\">lgporto@ageifeup.com </a><p></p>\n<p><strong>Site:</strong> https://www.estiem.org/</p>"
+    "information": {
+      "email": "lgporto@ageifeup.com",
+      "website": "https://www.estiem.org/"
+    }
   },
   {
     "name": "Grupo de Fados de Engenharia ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20fados@fe.up.pt\">fados@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> https://web.fe.up.pt/~fados/</p>"
+    "information": {
+      "email": "fados@fe.up.pt",
+      "website": "https://web.fe.up.pt/~fados/"
+    }
   },
   {
     "name": "IACES - International Association of Civil Engineering Students ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20iaces@fe.up.pt\">iaces@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> http://iacesporto.org/</p>"
+    "information": {
+      "email": "iaces@fe.up.pt",
+      "website": "http://iacesporto.org/"
+    }
   },
   {
     "name": "i-ESN -International Exchange Erasmus Student Network ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20info@esnporto.org\">info@esnporto.org</a><p></p>\n<p><strong>Site:</strong> http://www.esnporto.org/</p>"
+    "information": {
+      "email": "info@esnporto.org",
+      "website": "http://www.esnporto.org/"
+    }
   },
   {
     "name": "ISPorto - Iranian Students of Porto ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20%20%20%20%20isporto.portugal@gmail.com\">isporto.portugal@gmail.com </a><p></p>\n<p><strong>Email: </strong><a href=\"mailto:%20%20%20%20%20isporto@fe.up.pt\">isporto@fe.up.pt </a></p>\n<p><strong>Site:</strong> <a href=\"https://paginas.fe.up.pt/~isporto/\">https://paginas.fe.up.pt/~isporto/</a></p>"
+    "information": {
+      "email": "isporto@fe.up.pt",
+      "website": "https://paginas.fe.up.pt/~isporto/"
+    }
   },
   {
     "name": "JuniFEUP - Júnior Empresa da Faculdade de Engenharia da Universidade do Porto ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20junifeup@junifeup.pt\">junifeup@junifeup.pt </a><p></p>\n<p><strong>Site:</strong> http://www.junifeup.pt/</p>"
+    "information": {
+      "email": "junifeup@junifeup.pt",
+      "website": "http://www.junifeup.pt/"
+    }
   },
   {
     "name": "Microelectronics' Students Group (Núcleo de Microelectrónica) ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20cmos@fe.up.pt\">cmos@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> http://usgroup.eu/</p>"
+    "information": { "email": "cmos@fe.up.pt", "website": "http://usgroup.eu/" }
   },
   {
     "name": "NAAM - Núcleo de Aeronáutica, Aeroespacial e Modelismo da FEUP ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20naam@fe.up.pt\">naam@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> https://web.fe.up.pt/~naam/</p>"
+    "information": {
+      "email": "naam@fe.up.pt",
+      "website": "https://web.fe.up.pt/~naam/"
+    }
   },
   {
     "name": "NEB-FEUP/ICBAS - Núcleo de Estudantes de Bioengenharia da FEUP e ICBAS ",
-    "body": "<strong>Email: </strong><a href=\"mailto:neb@fe.up.pt\">neb@fe.up.pt</a><p></p>\n<p><strong>Email: </strong><a href=\"mailto:neb@icbas.up.pt\">neb@icbas.up.pt</a></p>\n<p><strong>Site:</strong> http://nebfeupicbas.pt/</p>"
+    "information": {
+      "email": "neb@icbas.up.pt",
+      "website": "http://nebfeupicbas.pt/"
+    }
   },
   {
     "name": "NaFEUP - Núcleo Ambiental da FEUP",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20nafeup@fe.up.pt\">nafeup@fe.up.pt </a>"
+    "information": { "email": "nafeup@fe.up.pt" }
   },
   {
     "name": "NIAEFEUP - Núcleo de Informática da AEFEUP",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20ni@aefeup.pt\">ni@aefeup.pt </a>"
+    "information": { "email": "ni@aefeup.pt" }
   },
   {
     "name": "NEEQ-FEUP - Núcleo de Estudantes de Engenharia Química",
-    "body": "\n<p><strong>Email: </strong>neeq@fe.up.pt</p>\n"
+    "information": { "email": "neeq@fe.up.pt" }
   },
   {
     "name": "Núcleo Estudantil da ACM ",
-    "body": "<strong>Email: </strong><a href=\"mailto:neacm@fe.up.pt\">neacm@fe.up.pt </a>"
+    "information": { "email": "neacm@fe.up.pt" }
   },
   {
     "name": "Núcleo de MICROELECTRÓNICA-USG",
-    "body": "<strong>Email: </strong><a href=\"mailto:info@usgroup.eu\">info@usgroup.eu </a>"
+    "information": { "email": "info@usgroup.eu" }
   },
   {
     "name": "Núcleo Estudantil de Computação Gráfica ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20necg@fe.up.pt\">necg@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> http://necg.fe.up.pt/</p>"
+    "information": {
+      "email": "necg@fe.up.pt",
+      "website": "http://necg.fe.up.pt/"
+    }
   },
   {
     "name": "Núcleo de Rádio-Amadorismo ",
-    "body": "<strong>Email: </strong><a href=\"mailto:nra@fe.up.pt\">nra@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> https://sites.google.com/site/nrafeup/</p>"
+    "information": {
+      "email": "nra@fe.up.pt",
+      "website": "https://sites.google.com/site/nrafeup/"
+    }
   },
   {
     "name": "NTIEC - Núcleo de Tecnologias da Informação na Engenharia Civil",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20ntiec@fe.up.pt\">ntiec@fe.up.pt</a><p></p>\n<p><strong>Site:</strong> https://paginas.fe.up.pt/~ntiec/</p>"
+    "information": {
+      "email": "ntiec@fe.up.pt",
+      "website": "https://paginas.fe.up.pt/~ntiec/"
+    }
   },
   {
     "name": "NUIEEE - Núcleo Universitário do IEEE ",
-    "body": "<strong>Email: </strong><a href=\"mailto:nuieee@fe.up.pt\">nuieee@fe.up.pt </a><p></p>\n<p><strong>Site:</strong> http://nuieee.fe.up.pt/</p>"
+    "information": {
+      "email": "nuieee@fe.up.pt",
+      "website": "http://nuieee.fe.up.pt/"
+    }
   },
   {
     "name": "ShARE-UP - Sharing knowledge - Universidade do Porto ",
-    "body": "<strong>Email: </strong><a href=\"mailto:share@fep.up.pt\">share@fep.up.pt</a><p></p>\n<p><strong>Site:</strong> http://www.share-share.org/</p>"
+    "information": {
+      "email": "share@fep.up.pt",
+      "website": "http://www.share-share.org/"
+    }
   },
   {
     "name": "TEUP - Tuna de Engenharia ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20geral@teup.pt\">geral@teup.pt </a><p></p>\n<p><strong>Site:</strong> https://paginas.fe.up.pt/~teupwww/</p>"
+    "information": {
+      "email": "geral@teup.pt",
+      "website": "https://paginas.fe.up.pt/~teupwww/"
+    }
   },
   {
     "name": "TUNAFE - Tuna Feminina de Engenharia ",
-    "body": "<strong>Email: </strong><a href=\"mailto:%20tunafe@fe.up.pt\">tunafe@fe.up.pt </a><strong>&nbsp;</strong><p></p>\n<p><strong>Site:</strong> <a href=\"https://paginas.fe.up.pt/~tunafe/WP/\">https://paginas.fe.up.pt/~tunafe/WP/</a></p>"
+    "information": {
+      "email": "tunafe@fe.up.pt",
+      "website": "https://paginas.fe.up.pt/~tunafe/WP/"
+    }
   },
   {
     "name": "InterUP - Associação para Estudantes Internacionais da U.Porto",
-    "body": "Facebook:&nbsp;www.facebook.com/InterUp.Porto/<p></p>\n<p>Instagram: interup.porto</p>"
+    "information": {
+      "facebook": "www.facebook.com/InterUp.Porto/",
+      "instagram": "interup.porto"
+    }
   }
 ]
